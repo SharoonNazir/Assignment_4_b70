@@ -172,44 +172,44 @@ function total(){
 
     let s1=document.querySelector(".num1");
     let number1=s1.value;
-   let num1=parseInt(number1,15);
+   let num1=parseInt(number1,10);
     
     let s2=document.querySelector(".num2");
     let number2=0;
      number2=s2.value;
-let num2=parseInt(number2,15);
+let num2=parseInt(number2,10);
 
 let s3=document.querySelector(".num3");
 let number3=s3.value;
-let num3=parseInt(number3,15);
+let num3=parseInt(number3,10);
 
 let s4=document.querySelector(".num4");
 let  number4=s4.value;
-let num4=parseInt(number4,15);
+let num4=parseInt(number4,10);
 
 let s5=document.querySelector(".num5");
 let  number5=s5.value;
-let num5=parseInt(number5,15);
+let num5=parseInt(number5,10);
 
 let s6=document.querySelector(".num6");
 let  number6=s6.value;
-let num6=parseInt(number6,15);
+let num6=parseInt(number6,10);
 
 let s7=document.querySelector(".num7");
 let  number7=s7.value;
-let num7=parseInt(number7,15);
+let num7=parseInt(number7,10);
 
 let s8=document.querySelector(".num8");
 let number8=s8.value;
-let num8=parseInt(number8,15);
+let num8=parseInt(number8,10);
 
 let s9=document.querySelector(".num9");
 let number9=s9.value;
-let num9=parseInt(number9,15);
+let num9=parseInt(number9,10);
 
 let s10=document.querySelector(".num10");
 let number10=s10.value;
-let num10=parseInt(number10,15);
+let num10=parseInt(number10,10);
 
     const result1=num1+num2+num3+num4+num5+num6+num7+num8+num9+num10;
 
